@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Libre+Barcode+39&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', sans-serif;
+    color: #a77fb6;
+}
+
+h1, h2 {
+    color: #7694c9;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+i {
+    color: #d0cece;
+}
+
+a {
+    text-decoration: none;
+    color: #a77fb6;
+}
+
+.visit_card {
+    width: 55%;
+    height: 450px;
+    margin: 100px auto;
+    border: 1px solid #ececec;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #ececec;
+}
+
+div.info {
+    display: inline-block;
+    width: 35%;
+    text-align: left;
+}
+
+p.HelloWorld {
+    display: inline-block;
+    font-size: 2rem;
+    color: #aecece;
+    font-family: 'Libre Barcode 39', cursive;
+    float: right;
+}
+
+hr {
+    margin-bottom: 40px;
+    width: 90%;
+    background-color: #d0cece;
+}
+
+.circle {
+    display: inline-block;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-right: 2px solid #fbc225;
+    border-radius: 100px;
+
+}
+
+
+.circle.n2 {
+    z-index: 10;
+    position: relative;
+    top: 30px;
+    right: 70px;
+    width: 200px;
+    height: 200px;
+    border-top: 3px solid #fbc225;
+}
